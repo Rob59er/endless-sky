@@ -16,6 +16,7 @@ mission "Graveyard Label"
 	on offer
 		event "graveyard label"
 		fail
+		badabing badaboom this is a test
 
 event "graveyard label"
 	galaxy "label graveyard"

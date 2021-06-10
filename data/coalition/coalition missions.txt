@@ -1393,8 +1393,6 @@ mission "Arachi Cartoonist 2"
 			label noship
 			`	"Ah, I see. Well, just a reference it would be, so the name matters not, I suppose. Anyway, thanks again Captain."`
 
-
-
 mission "Coalition: Submarines 1"
 	minor
 	name "Underwater Delivery"
@@ -1549,3 +1547,10 @@ mission "Coalition: Submarines 4"
 			`The local workers carefully unload the submarines off your ship one at a time, bringing them to the icy waters nearby, where they will dive to perform the deep sea explorations on the local fauna.`
 			`	Once they're done, Apri'ie invites you to enter the research facility, where you're met by a committee of sorts, as a handful of the local scientists greet you two, and thank you for helping with transporting the subs. "Having trouble reaching deeper sections of the ocean, our older probes were, so able to analyze a multitude of new species, with these new subs we hope to be," on of the tells you.`
 			`	When they're done, they hand you <payment>, and Apri'ie follows you to your ship. "Well, thanks for putting up with all the last-minute detours, Captain. Hope that seek wisdom in your travels, I do." He does a short gesture as a form of goodbye, having you put your forearm on the ground, and placing one of his legs over it, before heading back to the research center.`
+			`	"Heliarchs, yes, but properly trained ones, not quite," She explains. "Still instructed in their new functions, they must be. Similar to the standard process, it is. Only, for those selected during the games, much faster said process is."`
+				goto ending
+			label nexttime
+			`	"Thank you Captain. Even if next year watching my matches you are not, my best, I promise I will do."`
+			label ending
+			`	When you're nearing the docks, a dozen Kimek suddenly come rushing towards two of you, and Pairri tells you it's her family. She tries to introduce you to all of them, but most of them seem much more interested in telling her how proud they were to see her compete than they are in meeting you, despite your alien appearance. Only one of the younger Kimek in the family group pays you particular mind over Pairri, but in all the hustle they still don't have a chance to speak to you with her translation box. After her family calms down a bit and begin to whisk Pairri away, you say goodbye, wishing her good luck for next year's games, and then head back to your ship.`
+				decline

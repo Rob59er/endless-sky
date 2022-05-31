@@ -14,6 +14,7 @@ mission "Human Vacation [1]"
 	repeat
 	description "This human wants to vacation on the Hai world of <destination>, and will pay you <payment>."
 	passengers 1
+	THIS LINE IS FOR THE PURPOSES OF TESTING
 	to offer
 		random < 50
 	source
